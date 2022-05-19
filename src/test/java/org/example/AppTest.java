@@ -48,7 +48,7 @@ public class AppTest
         WebElement emailBodyTextArea = driver.findElement(By.cssSelector("body"));
         emailBodyTextArea.sendKeys("Este email fue enviado automaticamente usando workflows en " +
                                            "Github Actions con Selenium test. Se ejecuto y se ejecutara al hacerle push a la rama principal. " +
-                                           "Github Repo: https://github.com/rogeruiz22/martes171119.git");
+                                           "Github Repo: https://github.com/rogeruiz22/github-actions-selenium.git");
 
         Thread.sleep(1000);
 
