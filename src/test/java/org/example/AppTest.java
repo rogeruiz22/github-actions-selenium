@@ -45,8 +45,6 @@ public class AppTest
         WebElement emailBody = driver.findElement(By.xpath("//div[@id='cke_editor']//iframe"));
         driver.switchTo().frame(emailBody);
 
-        Thread.sleep(1000);
-
         WebElement emailBodyTextArea = driver.findElement(By.cssSelector("body"));
         emailBodyTextArea.sendKeys("Este email fue enviado automaticamente usando workflows en " +
                                            "Github Actions con Selenium test. Se ejecuto y se ejecutara al hacerle push a la rama principal. " +
